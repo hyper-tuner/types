@@ -16,7 +16,7 @@
     "build": "tsc",
     "prepublishOnly": "npm run build",
     "start": "tsc --watch",
-    "lint": "tsc && eslint --max-warnings=0 src/*"
+    "lint": "tsc && eslint --max-warnings=0 src/**/*.ts src/*.ts"
   },
   "devDependencies": {
     "@types/node": "^16.9.1",
