@@ -1,5 +1,6 @@
 # 📦 SpeedyTuner common TypeScript types
 
+![master](https://github.com/speedy-tuner/types/actions/workflows/lint.js.yml/badge.svg?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/maintainability)](https://codeclimate.com/github/speedy-tuner/types/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/test_coverage)](https://codeclimate.com/github/speedy-tuner/types/test_coverage)
 ![License](https://img.shields.io/github/license/speedy-tuner/types)
