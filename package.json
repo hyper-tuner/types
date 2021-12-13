@@ -19,7 +19,7 @@
     "lint": "tsc && eslint --max-warnings=0 src/**/*.ts src/*.ts"
   },
   "devDependencies": {
-    "@speedy-tuner/eslint-config": "^0.1.0",
+    "@speedy-tuner/eslint-config": "^0.1.2",
     "@types/node": "^16.11.12",
     "eslint-plugin-modules-newline": "^0.0.6",
     "eslint-plugin-prettier": "^4.0.0",
