@@ -1,7 +1,7 @@
 {
   "name": "@speedy-tuner/types",
   "description": "SpeedyTuner common TypeScript types",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "repository": {
     "type": "git",
