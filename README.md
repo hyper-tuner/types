@@ -1,16 +1,16 @@
-# 📦 SpeedyTuner common TypeScript types
+# 📦 HyperTuner common TypeScript types
 
-![master](https://github.com/speedy-tuner/types/actions/workflows/lint.js.yml/badge.svg?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/maintainability)](https://codeclimate.com/github/speedy-tuner/types/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/test_coverage)](https://codeclimate.com/github/speedy-tuner/types/test_coverage)
-![License](https://img.shields.io/github/license/speedy-tuner/types)
+![master](https://github.com/hyper-tuner/types/actions/workflows/lint.js.yml/badge.svg?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/maintainability)](https://codeclimate.com/github/hyper-tuner/types/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/bb3cdf2c77ec769ee401/test_coverage)](https://codeclimate.com/github/hyper-tuner/types/test_coverage)
+![License](https://img.shields.io/github/license/hyper-tuner/types)
 
 ## Installation
 
 Make sure you have registry specified in the `.npmrc` file:
 
 ```bash
-@speedy-tuner:registry=https://npm.pkg.github.com
+@hyper-tuner:registry=https://npm.pkg.github.com
 ```
 
 Authenticate to GitHub Packages:
@@ -20,5 +20,5 @@ Authenticate to GitHub Packages:
 Proceed with the installation:
 
 ```bash
-npm i --save @speedy-tuner/types
+npm i --save @hyper-tuner/types
 ```
