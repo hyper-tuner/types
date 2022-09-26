@@ -37,16 +37,30 @@ export interface Dialogs {
   [name: string]: Dialog;
 }
 
+export interface GroupChildMenu {
+  title: string;
+  condition: string;
+}
+
 export interface SubMenu {
+  type: 'subMenu',
   title: string;
   page: number;
   condition: string;
 }
 
+export interface GroupMenu {
+  type: 'groupMenu',
+  title: string;
+  groupChildMenus: {
+    [name: string]: GroupChildMenu;
+  };
+}
+
 export interface Menu {
   title: string;
   subMenus: {
-    [name: string]: SubMenu;
+    [name: string]: SubMenu | GroupMenu;
   };
 }
 
