@@ -43,14 +43,14 @@ export interface GroupChildMenu {
 }
 
 export interface SubMenu {
-  type: 'subMenu',
+  type: 'subMenu';
   title: string;
   page: number;
   condition: string;
 }
 
 export interface GroupMenu {
-  type: 'groupMenu',
+  type: 'groupMenu';
   title: string;
   groupChildMenus: {
     [name: string]: GroupChildMenu;
