@@ -1,8 +1,21 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.formatOnSave": true,
+  "cSpell.words": [
+    "hypertuner",
+    "kbar",
+    "pocketbase",
+    "prefs",
+    "rusefi",
+    "typegen",
+    "vite",
+    "vitejs"
+  ],
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[typescript]": {
     "editor.defaultFormatter": "rome.rome"
