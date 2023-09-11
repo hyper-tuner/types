@@ -190,6 +190,7 @@ export interface DatalogEntry {
 export interface Config {
   [key: string]: any;
   megaTune: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [key: string]: any;
     signature: string;
     MTversion: number;
@@ -197,6 +198,7 @@ export interface Config {
     versionInfo: string;
   };
   tunerStudio: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [key: string]: any;
     iniSpecVersion: number;
   };
@@ -210,16 +212,20 @@ export interface Config {
   menus: Menus;
   help: Help;
   dialogs: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [name: string]: Dialog;
   };
   curves: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [name: string]: Curve;
   };
   tables: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [name: string]: Table;
   };
   outputChannels: OutputChannels;
   datalog: {
+    // rome-ignore lint/suspicious/noRedeclare: <explanation>
     [name: string]: DatalogEntry;
   };
 }
